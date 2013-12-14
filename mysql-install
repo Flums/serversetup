@@ -1,2 +1,3 @@
 yum install mysql mysql-server -y
 service mysqld restart
+chkconfig mysqld on
