@@ -5,4 +5,4 @@ yum update -y
 yum install vim -y
 cd /etc/ssh
 wget -N https://raw.github.com/Flums/serversetup/master/sshd_config
-service ssh restart
+service sshd restart
