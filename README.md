@@ -9,4 +9,5 @@ curl https://raw.github.com/Flums/serversetup/master/setup.sh|sh
 Mysql-server:
 
 curl https://raw.github.com/Flums/serversetup/master/mysql-install|sh
+
 (run /usr/bin/mysql_secure_installation after installation)
