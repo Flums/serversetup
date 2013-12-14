@@ -6,3 +6,8 @@ yum install vim -y
 cd /etc/ssh
 wget -N https://raw.github.com/Flums/serversetup/master/sshd_config
 service sshd restart
+yum install munin-node -y
+chkconfig munin-node on
+cd /etc/munin
+wget -N https://raw.github.com/Flums/serversetup/master/munin-node.conf
+service munin-node restart
