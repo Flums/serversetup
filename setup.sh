@@ -3,4 +3,5 @@ rpm -Uvh http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 yum clean all
 yum install vim -y
 cd /etc/ssh
-wget -N 
+wget -N https://raw.github.com/Flums/serversetup/master/sshd_config
+service ssh restart
