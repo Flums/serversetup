@@ -2,4 +2,5 @@ yum install nginx -y
 service nginx start
 chkconfig nginx on
 yum --enablerepo=remi install php-fpm php-mysql -y
+service php-fpm start
 chkconfig php-fpm on
