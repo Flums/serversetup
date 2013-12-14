@@ -1,3 +1,2 @@
 yum install mysql mysql-server -y
 service mysqld restart
-/usr/bin/mysql_secure_installation
