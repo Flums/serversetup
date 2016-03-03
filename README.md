@@ -14,5 +14,6 @@ Mysql-server:
 
 
 SSH certificate in:
-
+```shell
  curl https://raw.githubusercontent.com/Flums/serversetup/master/ssh_pub_key > .ssh/authorized_keys
+```
