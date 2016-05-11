@@ -1,3 +1,3 @@
-apt-get install munin-node
+apt-get install munin-node -y
 echo "allow ^88\.87\.47\.44$" >> /etc/munin/munin-node.conf
 service munin-node restart
