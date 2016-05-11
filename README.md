@@ -8,3 +8,8 @@ To install user philip with full sudo:
 ```shell
  curl https://raw.githubusercontent.com/Flums/serversetup/master/user/install-philip.sh|sh
 ```
+
+Installing munin-node with allow for munin.digno.no
+```shell
+ curl https://raw.githubusercontent.com/Flums/serversetup/master/install-munin-node.sh|sh
+```
