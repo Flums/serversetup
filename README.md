@@ -13,3 +13,8 @@ Installing munin-node with allow for munin.digno.no
 ```shell
  curl https://raw.githubusercontent.com/Flums/serversetup/master/install-munin-node.sh|sh
 ```
+
+Installing munin with munin.conf from Github
+```shell
+ curl https://raw.githubusercontent.com/Flums/serversetup/master/install-munin.sh|sh
+```
