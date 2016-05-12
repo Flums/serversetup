@@ -18,3 +18,13 @@ Installing munin with munin.conf from Github
 ```shell
  curl https://raw.githubusercontent.com/Flums/serversetup/master/install-munin.sh|sh
 ```
+
+Let Ubuntu update security packages itself
+```shell
+ dpkg-reconfigure --priority=low unattended-upgrades
+```
+
+Set up sshd server to port 39029 and no password-logins
+```shell
+ curl https://raw.githubusercontent.com/Flums/serversetup/master/install-sshd-config.sh|sh
+```
