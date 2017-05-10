@@ -28,3 +28,8 @@ Set up sshd server to port 39029 and no password-logins
 ```shell
  curl https://raw.githubusercontent.com/Flums/serversetup/master/install-sshd-config.sh|sh
 ```
+
+Add custom ufw scripts
+```shell
+ curl https://raw.github.com/Flums/serversetup/master/install-ufw-scripts.sh|sh
+```
