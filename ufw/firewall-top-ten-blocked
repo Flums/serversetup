@@ -1,0 +1,1 @@
+cat /var/log/ufw.log|grep BLOCK |cut -f5 -d'='|cut -f1 -d' '|sort|uniq -c|sort -nr|head
